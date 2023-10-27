@@ -7,6 +7,8 @@
 
     /* shadow */
     --shade-sm: 0px 0px 12px #262c382a;
+    --shade-sm-wide: 0px 20px 30px -2px #262c3811;
+    --shade-input-hover: 0px 0px 40px 0px #262c381a;
 }
 
 /* tokes */
@@ -18,9 +20,11 @@
     --header-bg-light: var(--white);
 
     --accent: var(--primary);
+    --active: var(--primary);
 
     /* shadow */
-    --shade-header: var(--shade-sm)
+    --shade-header: var(--shade-sm);
+    --shade-wide-box: var(--shade-sm-wide);
 }
 
 
