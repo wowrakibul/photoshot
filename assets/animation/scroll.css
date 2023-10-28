@@ -1,0 +1,51 @@
+.bounce {
+    animation: bounce 1230ms ease-in-out;
+}
+
+@keyframes bounce {
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: -5deg;
+    }
+
+    50% {
+        rotate: 10deg;
+    }
+
+    75% {
+        rotate: -5deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+.bounce:hover {
+    animation: bounceHover 1230ms ease-in-out;
+}
+
+@keyframes bounceHover {
+    0% {
+        transform: translateY(-0px);
+    }
+
+    25% {
+        transform: translateY(20px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    75% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

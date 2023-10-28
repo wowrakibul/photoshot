@@ -1,0 +1,27 @@
+/* min-max */
+@media screen and (max-width: 1096px) {
+    .user-name {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .icon {
+        display: block;
+    }
+
+    .header {
+        padding: 4px 12px;
+    }
+
+
+    .nav-contents {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .logo-txt {
+        display: none;
+    }
+}

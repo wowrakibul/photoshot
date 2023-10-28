@@ -28,11 +28,13 @@
 
         <link rel="stylesheet" href="/photoshot/style.css">
         <link rel="stylesheet" href="/photoshot/assets/css/root.css">
+        <link rel="stylesheet" href="/photoshot/assets/css/responsive.css">
+        <link rel="stylesheet" href="/photoshot/assets/animation/scroll.css">
     </head>
 
     <body id="home">
         <section class="header">
-                <img src="/photoshot/assets/icons/menu-outline.svg" alt="" class="icon">
+            <img src="/photoshot/assets/icons/outline/menu.svg" alt="" class="icon">
             <div class="logo-container">
                 <img src="https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Photos-512.png"
                     alt="PhotoShot logo" class="logo">
@@ -41,14 +43,14 @@
             <nav class="nav-container">
                 <ul class="nav-contents">
                     <li class="list-items"><a href="#home" id="top-nav"> home </a></li>
-                    <li class="list-items"><a href="/photoshot/stock.html" id="top-nav"> stock photos </a></li>
-                    <li class="list-items"><a href="/photoshot/stock.html" id="top-nav"> stock photos </a></li>
-                    <li class="list-items"><a href="/photoshot/stock.html" id="top-nav"> stock photos </a></li>
+                    <li class="list-items"><a href="/photoshot/pages/stock.html" id="top-nav"> stock photos </a></li>
+                    <li class="list-items"><a href="/photoshot/pages/stock.html" id="top-nav"> stock photos </a></li>
+                    <li class="list-items"><a href="/photoshot/pages/stock.html" id="top-nav"> stock photos </a></li>
                 </ul>
                 <div class="right-nav">
                     <ul class="documentation">
-                        <li class="doc-items"><a href="/photoshot/about.html" id="top-nav"> about us </a></li>
-                        <li class="doc-items"><a href="/photoshot/about.html" id="top-nav"> Features </a></li>
+                        <li class="doc-items"><a href="/photoshot/pages/about.html" id="top-nav"> about us </a></li>
+                        <li class="doc-items"><a href="/photoshot/pages/about.html" id="top-nav"> Features </a></li>
                     </ul>
                     <div class="user-actions">
                         <button type="button" id="submit"> submit </button>
@@ -63,7 +65,9 @@
         </section>
         <section class="hero">
             <div class="hero-title"> Your Photography career take to next level and earn more </div>
-            <input type="text" placeholder="enter search..." id="search">
+            <form action="/photoshot/pages/stock.html" method="get" style="width: 115%;" class="bounce">
+                <input type="text" placeholder="enter search..." id="search">
+            </form>
         </section>
     </body>
 
